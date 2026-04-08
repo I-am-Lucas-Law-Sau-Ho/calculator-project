@@ -33,7 +33,7 @@ Before starting, ensure you have:
 
 #### Task Description
 
-1. Use the `/create-prompt` command in Copilot Chat to generate a prompt file that:
+1. Use the `Plan agent` and `/create-prompt` command in Copilot Chat to generate a prompt file that:
    - Analyzes git commits between two tags
    - Categorizes commits by type (feat, fix, docs, chore, etc.) following conventional commit format
    - Outputs the release notes as a markdown file
@@ -44,7 +44,7 @@ Before starting, ensure you have:
 
 4. Run the prompt to generate release notes between `v1.1.0` and `v1.3.0`
 
-5. Review and verify the generated release notes. If the output is incorrect or incomplete, iterate by revising your prompt file and running again.
+**Tip:** Claude Haiku 4.5 is sufficient for this task. You don't need a larger model.
 
 ### Submission
 

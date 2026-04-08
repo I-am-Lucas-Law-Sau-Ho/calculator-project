@@ -30,7 +30,6 @@ Before starting, ensure you have:
 - VS Code with GitHub Copilot and Copilot Chat extensions installed
 - This repository cloned locally
 - Copilot Chat working
----
 
 #### Task Description
 
@@ -46,8 +45,6 @@ Before starting, ensure you have:
 4. Run the prompt to generate release notes between `v1.1.0` and `v1.3.0`
 
 5. Review and verify the generated release notes. If the output is incorrect or incomplete, iterate by revising your prompt file and running again.
-
----
 
 ### Submission
 

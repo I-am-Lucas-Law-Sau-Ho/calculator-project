@@ -14,6 +14,7 @@ calc = Calculator()
 print(calc.add(2, 3))  # Output: 5
 print(calc.subtract(5, 2))  # Output: 3
 print(calc.multiply(4, 3))  # Output: 12
+print(calc.divide(10, 2))  # Output: 5.0
 ```
 ## Tests
 To run the tests, use the following command:

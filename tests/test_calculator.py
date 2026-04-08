@@ -22,3 +22,11 @@ class TestCalculator:
         assert self.calculator.multiply(-1, 1) == -1
         assert self.calculator.multiply(0, 5) == 0
         assert self.calculator.multiply(-5, -5) == 25
+    
+    def test_divide(self):
+        assert self.calculator.divide(6, 3) == 2
+        assert self.calculator.divide(-1, 1) == -1
+        assert self.calculator.divide(0, 5) == 0
+        assert self.calculator.divide(-5, -5) == 1
+        with pytest.raises(ValueError):
+            self.calculator.divide(5, 0)

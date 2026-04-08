@@ -22,20 +22,15 @@ To run the tests, use the following command:
 pytest tests/
 ```
 
-## TODO: Workshop Exercise
+## Workshop 10 Exercise: Generate a Release Notes Prompt
 
 ### Prerequisites
 
 Before starting, ensure you have:
 - VS Code with GitHub Copilot and Copilot Chat extensions installed
 - This repository cloned locally
-- Copilot Chat working (test by pressing `Ctrl+Shift+I`)
-
+- Copilot Chat working
 ---
-
-### Exercise: Generate a Release Notes Prompt
-
-**Objective:** Use Copilot's built-in `/create-prompt` command to generate a prompt file that automates release note creation from git commit history.
 
 #### Task Description
 
@@ -54,9 +49,9 @@ Before starting, ensure you have:
 
 ---
 
-### Submission Requirements
+### Submission
 
-Submit the following screenshots:
+Submit the following screenshots to Blackboard:
 
 1. **Prompt file screenshot:** Show the saved `release-notes.prompt.md` file with its content visible
 
